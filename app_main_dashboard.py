@@ -17,7 +17,7 @@ app = Flask(__name__)
 # Global cache for data
 data_cache = {}
 examples_cache = {}  # Cache for examples data by record ID
-OUTPUT_DIR = "output/ckpt_test"
+OUTPUT_DIR = "data/ckpt_test"
 
 
 def read_jsonl(filepath):
